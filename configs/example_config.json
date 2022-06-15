@@ -17,7 +17,7 @@
   "lr": 1e-5,
   "end_lr": 2e-6,
   "weight_decay": 0.1,
-  "total_steps": 2,
+  "total_steps": 3,
 
   "tpu_size": 8,
 
@@ -31,9 +31,9 @@
   ],
 
   "val_batches": 0,
-  "val_every": 80,
-  "ckpt_every": 2,
-  "keep_every": 2,
+  "val_every": 4,
+  "ckpt_every": 3,
+  "keep_every": 3,
 
   "name": "contract_data_extraction",
   "wandb_project": "mesh-transformer-jax",
