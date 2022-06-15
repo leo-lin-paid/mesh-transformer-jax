@@ -14,15 +14,15 @@
 
   "warmup_steps": 7,
   "anneal_steps": 65,
-  "lr": 5e-5,
-  "end_lr": 1e-5,
+  "lr": 1e-5,
+  "end_lr": 2e-6,
   "weight_decay": 0.1,
-  "total_steps": 72,
+  "total_steps": 2,
 
   "tpu_size": 8,
 
-  "bucket": "your-bucket",
-  "model_dir": "finetune_dir",
+  "bucket": "gs://got-j-data-paid/step_383500/",
+  "model_dir": "gs://gpt-j-model-paid/fine-tune",
 
   "train_set": "example.train.index",
   "val_set": {},
@@ -32,10 +32,10 @@
 
   "val_batches": 0,
   "val_every": 80,
-  "ckpt_every": 72,
-  "keep_every": 72,
+  "ckpt_every": 2,
+  "keep_every": 2,
 
-  "name": "example_model",
+  "name": "contract_data_extraction",
   "wandb_project": "mesh-transformer-jax",
   "comment": ""
 }
