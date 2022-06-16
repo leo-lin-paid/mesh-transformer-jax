@@ -21,7 +21,7 @@
 
   "tpu_size": 8,
 
-  "bucket": "gs://got-j-data-paid/step_383500/",
+  "bucket": "gs://gpt-j-data-paid/step_383500/",
   "model_dir": "fine-tune",
 
   "train_set": "example.train.index",
